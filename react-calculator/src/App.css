@@ -1,0 +1,30 @@
+button {
+    
+    height: 5vw;
+    width: 5vw;
+    gap: 1vw;
+}
+.calculator-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.button {
+    gap: 1vw;
+}
+.result {
+    height: 30px;
+    width: 500px;
+    border: 1px solid grey;
+    padding: 8px 8px;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+p {
+    overflow: hidden;
+}
+
