@@ -7,7 +7,7 @@ import KeypadComponent from './Components/KeypadComponent';
 class App extends Component {
 	constructor(){
 		super();
-		this.state = {
+		this.state = { 
 			result: ""
 		}
 	}
