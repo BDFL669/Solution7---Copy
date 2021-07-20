@@ -1,7 +1,7 @@
 button {
     
-    height: 5vw;
-    width: 5vw;
+    height: 12vh;
+    width: 12vh;
     gap: 1vw;
 }
 .calculator-body {
@@ -9,22 +9,33 @@ button {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 0.5vw;
+    background-image: D099BC;
     
     
+}
+.button-item {
+    /*display: grid;
+    /*flex-direction: column;*/
+    gap: 0.5vw;
+    margin: 1px;
 }
 .button {
     gap: 1vw;
 }
 .result {
-    height: 30px;
-    width: 500px;
+    height: 3vh;
+    width: 70vw;
     border: 1px solid grey;
-    padding: 8px 8px;
+    padding: 15px 10px;
     text-align: center;
     margin-bottom: 5px;
     
 }
 p {
-    overflow: hidden;
+    overflow-x: auto;
+    bottom: 15vh;
+    
+    
 }
 

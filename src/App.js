@@ -53,12 +53,18 @@ class App extends Component {
 		})
 	};
 	render() {
+		var button = {
+		display: 'flex',
+		alignItems: 'space-between',
+		justifyContent: 'space-betwee'
+
+		}
 		return (
 			<div>
 			<div className="calculator-body">
-			<h1>Simple React Calculator</h1>
+			<h2>Simple React Calculator</h2>
 			<ResultComponent result={this.state.result}/>
-			<KeypadComponent onClick={this.onClick}/>
+			<KeypadComponent style={button} onClick={this.onClick}/>
 			</div>
 			</div>
 		);
